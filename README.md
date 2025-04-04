@@ -2,58 +2,53 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.5.
 
-## Development server
 
-To start a local development server, run:
+## Diferenças e Melhorias
 
-```bash
+* Atualização de dependências do Angular 14 para Angular 19.
+
+* Refatoração do código para seguir as melhores práticas da nova versão.
+
+### Angular_blog
+
+Este projeto é uma versão atualizada para Angular 19 baseada em um projeto originalmente desenvolvido em Angular 14. O objetivo desta atualização foi modernizar a aplicação, melhorar a compatibilidade com bibliotecas mais recentes e otimizar a estrutura do código.
+
+### Motivação
+
+A versão original do projeto foi desenvolvida utilizando Angular 14. Com a evolução do framework e a chegada do Angular 19, houve a necessidade de atualizar o código para garantir melhor desempenho, suporte a novas funcionalidades e compatibilidade com as versões mais recentes do ecossistema Angular.
+
+## Melhorias na organização dos componentes e serviços.
+
+Correções de compatibilidade com bibliotecas externas.
+
+Modificação do tema do blog para pinturas artísticas, substituindo o foco original em imagens da Marvel.
+
+## Base do Projeto Original
+
+Este projeto foi baseado em um código originalmente desenvolvido por Felipe Aguiar no repositório [angular-buzzfeed-quizz-clone] ([https://github.com/felipeAguiarCode/angular-blog.git](https://github.com/felipeAguiarCode/angular-buzzfeed-quizz-clone.git) . Todo o código foi revisado, atualizado e refatorado para garantir compatibilidade com Angular 19, além da reformulação do tema.
+
+### Como Executar o Projeto
+
+Clone o repositório:
+```
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+Acesse o diretório do projeto:
+```
+cd nome-do-projeto
+```
+Instale as dependências:
+```
+npm install
+```
+Execute o projeto:
+```
 ng serve
 ```
+O projeto estará disponível em http://localhost:4200/.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### Contribuição
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
+Contribuições são bem-vindas! Se você deseja sugerir melhorias, por favor, abra uma issue ou envie um pull request.
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
